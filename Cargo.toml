@@ -5,4 +5,6 @@ authors = ["Robin Mattheussen <me@romatthe.dev>"]
 edition = "2018"
 
 [dependencies]
+id3 = "0.6.2"
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls", "sqlite", "macros" ] }
 tokio = "1.2.0"
